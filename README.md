@@ -17,6 +17,7 @@ Store IT is a secure and scalable file storage and management system. It allows 
 - **Deployment:** Vercel
 
 ## 📸 Screenshots
+![Dashboard](assets/screenShot/dashboard.png)
 
 
 ## 🎯 Installation & Setup
