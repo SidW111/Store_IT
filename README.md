@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Store_IT
 
-## Getting Started
+## 🚀 Overview
+Store IT is a secure and scalable file storage and management system. It allows users to upload, store, and manage their files with OTP-based authentication, ensuring enhanced security. The project is built using **Next.js, Appwrite, and Vercel** for deployment.
 
-First, run the development server:
+## 🔥 Features
+- 📂 **Secure File Storage** with Appwrite SDK
+- 🔐 **OTP-Based Authentication** for enhanced security
+- 📤 **Upload, Download & Manage Files**
+- 🌐 **Fast & Scalable** using Vercel for deployment
+- 🎨 **Modern UI** with a user-friendly interface
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, React.js
+- **Backend:** Appwrite SDK
+- **Authentication:** OTP-based authentication
+- **Deployment:** Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Installation & Setup
 
-## Learn More
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/SidW111/Store_IT.git
+   ```
+2. **Navigate to the project folder:**
+   ```sh
+   cd Store_IT
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Set up environment variables:**
+   Create a `.env.local` file and add:
+   ```env
+   NEXT_PUBLIC_APPWRITE_ENDPOINT=your-appwrite-endpoint
+   NEXT_PUBLIC_APPWRITE_PROJECT_ID=your-appwrite-project
+   NEXT_PUBLIC_APPWRITE_DATABASE=your-appwrite-database-id
+   NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=your-appwrite-users-collection
+   NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=youe-appwrite-files-collection
+   NEXT_PUBLIC_APPWRITE_BUCKET=ypur-appwrite-bucket-id
+   NEXT_APPWRITE_KEY=your-appwrite-key
+   ```
+5. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
+Deployed on **Vercel** for seamless scalability. You can deploy your own instance by connecting the repo to Vercel and setting the required environment variables.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📞 Contact
+- **GitHub:** [SidW111](https://github.com/SidW111)
+- **Email:** siddhantwainngade@gmail.com
+- **LinkedIn:** [Sid](https://www.linkedin.com/in/siddhant-waingade-4b3b18238/) 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
